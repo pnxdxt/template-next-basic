@@ -4,12 +4,18 @@ This example is using [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+
+with [npm](https://docs.npmjs.com/cli/init)
 
 ```bash
-npx create-next-app --example https://github.com/pnxdxt/next-ts-tailwind-template my-new-project
-# or
-yarn create next-app --example https://github.com/pnxdxt/next-ts-tailwind-template my-new-project
+npx create-next-app --example https://github.com/pnxdxt/next-ts-tailwind-template
+```
+
+or with [yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+
+```bash
+yarn create next-app --example https://github.com/pnxdxt/next-ts-tailwind-template
 ```
 
 ## Deploy your own
