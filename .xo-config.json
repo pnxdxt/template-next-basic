@@ -1,0 +1,10 @@
+{
+	"prettier": true,
+	"extends": ["xo-nextjs"],
+	"ignores": [".github"],
+	"env": "browser",
+	"rules": {
+		"@typescript-eslint/triple-slash-reference": "off",
+		"react/prop-types": "warn"
+	}
+}
