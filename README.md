@@ -9,13 +9,13 @@ Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packag
 with [npm](https://docs.npmjs.com/cli/init)
 
 ```bash
-npx create-next-app --example https://github.com/pnxdxt/next-ts-tailwind-template
+npx create-next-app --example https://github.com/pnxdxt/template-next-basic
 ```
 
 or with [yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-yarn create next-app --example https://github.com/pnxdxt/next-ts-tailwind-template
+yarn create next-app --example https://github.com/pnxdxt/template-next-basic
 ```
 
 ## Deploy your own
