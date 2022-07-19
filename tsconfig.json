@@ -3,17 +3,25 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@/components/*": ["components/*"],
-			"@/hooks/*": ["hooks/*"],
-			"@/layouts/*": ["layouts/*"],
-			"@/lib/*": ["lib/*"],
-			"@/pages/*": ["pages/*"],
-			"@/api/*": ["pages/api/*"],
+			"@/components/*": ["src/components/*"],
+			"@/hooks/*": ["src/hooks/*"],
+			"@/layouts/*": ["src/layouts/*"],
+			"@/utils/*": ["src/utils/*"],
+			"@/pages/*": ["src/pages/*"],
+			"@/api/*": ["src/pages/api/*"],
 			"@/public/*": ["public/*"],
-			"@/styles/*": ["styles/*"],
-			"@/data/*": ["data/*"]
+			"@/styles/*": ["src/styles/*"],
+			"@/server/*": ["src/server/*"],
+			"@/router/*": ["src/server/router/*"],
+			"@/data/*": ["src/data/*"]
 		}
 	},
-	"include": ["next-env.d.ts", "additional.d.ts", "**/*.ts", "**/*.tsx"],
+	"include": [
+		"next-env.d.ts",
+		"additional.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js"
+	],
 	"exclude": ["node_modules"]
 }

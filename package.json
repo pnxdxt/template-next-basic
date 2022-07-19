@@ -1,4 +1,5 @@
 {
+	"name": "template-next-basic",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
@@ -16,17 +17,18 @@
 	"dependencies": {
 		"next": "12.2.0",
 		"react": "18.2.0",
-		"react-dom": "18.2.0"
+		"react-dom": "18.2.0",
+		"zod": "^3.17.9"
 	},
 	"devDependencies": {
 		"@pnxdxt/tsconfig": "^0.3.0",
 		"@types/node": "18.0.0",
 		"@types/react": "18.0.14",
 		"@types/react-dom": "18.0.5",
-		"autoprefixer": "^10.4.0",
+		"autoprefixer": "^10.4.7",
 		"eslint-config-xo-nextjs": "^4.1.0",
 		"postcss": "^8.4.14",
-		"tailwindcss": "^3.1.5",
+		"tailwindcss": "^3.1.6",
 		"typescript": "4.7.4",
 		"xo": "^0.50.0"
 	}
